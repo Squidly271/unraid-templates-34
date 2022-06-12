@@ -13,9 +13,7 @@
 BETA Warning: Since this Docker runs with WINE it's marked as BETA, i can not guarantee if the server is running always as expected!&#xD;
 &#xD;
 ATTENTION: First Startup can take very long since it downloads the gameserver files!&#xD;
-&#xD;
-Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
-&#xD;
+
 https://hub.docker.com/r/devidian/spaceengineers/&#xD;
 &#xD;
 Credits to devidian, creator of the container.</Overview>
@@ -39,5 +37,4 @@ Credits to devidian, creator of the container.</Overview>
   <Config Name="Container Variable 1" Target="WINEARCH" Default="win64" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">win64</Config>
   <Config Name="Container Variable 2" Target="WINEDEBUG" Default="-all" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">-all</Config>
   <Config Name="Container Variable 4" Target="APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE" Default="1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">1</Config>
-  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
 </Container>
